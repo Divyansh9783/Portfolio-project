@@ -1,0 +1,45 @@
+{% block foot %}
+<!-- Footer-->
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Location</h4>
+                <p class="lead mb-0">
+                    D-73,Kalidas Marg,Banipark,Jaipur
+                    <br />
+                    Rajasthan(302016)
+                </p>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-github"></i></a>
+            </div>
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">About</h4>
+                <p class="lead mb-0">
+                    Becoming a Python developer is an exciting journey filled with possibilities. For a fresher, stepping into the world of programming with Python opens up a whole new realm of opportunities. As they embark on this path, they encounter challenges, learning experiences, and moments of triumph that shape their growth as developers.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="{{url_for('static',filename='js/script.js')}}"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
+{% endblock %}
